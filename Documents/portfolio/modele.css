@@ -1,0 +1,24 @@
+header{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+div{
+    margin:  20px;
+    border: 10px;
+    background-color: white;
+    padding: 5px;
+    text-align: left;
+}
+body{
+    background-color: gainsboro;
+    padding: 10px;
+    margin-left: 20;
+}
+h3,h5{
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
+}
