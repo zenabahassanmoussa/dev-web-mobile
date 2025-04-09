@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+
+// Fonction de calcul de la surface du cercle
+double surfaceCercle(double rayon) {
+    return pi * rayon * rayon;
+
+}
+
+int main() {
+    double r;
+    
+    printf("Entrez le rayon du cercle : ");
+    scanf("%lf", &r);
+    
+    double surface = surfaceCercle(r);
+    printf("Surface du cercle = %.2f m²\n", surface);
+    
+    return 0;
+}

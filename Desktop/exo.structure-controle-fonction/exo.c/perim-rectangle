@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+// Fonction pour calculer le périmètre d'un rectangle
+double perimetreRectangle(double longueur, double largeur) {
+    return 2 * (longueur + largeur);
+}
+
+
+int main() {
+    double lng, lrg;
+    
+    printf("Entrez la longueur du rectangle : ");
+    scanf("%lf", &lng);
+    
+    printf("Entrez la largeur du rectangle : ");
+    scanf("%lf", &lrg);
+    
+    double perimetre = perimetreRectangle(lng, lrg);
+    printf("Le périmètre du rectangle est : %.2f\n", perimetre);
+    
+    return 0;
+}

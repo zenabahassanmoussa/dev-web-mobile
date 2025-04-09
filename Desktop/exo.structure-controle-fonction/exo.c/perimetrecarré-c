@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+// Fonction pour calculer le périmètre d'un carré
+double perimetreCarre(double cote) {
+    return 4 * cote;
+}
+
+int main() {
+    double cote;
+    printf("Entrez la longueur du côté du carré : ");
+    scanf("%lf", &cote);
+    
+    double perimetre = perimetreCarre(cote);
+    printf("Le périmètre du carré est : %.2f\n", perimetre);
+    
+    return 0;
+}
